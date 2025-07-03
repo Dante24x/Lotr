@@ -1,0 +1,50 @@
+# === Python cache ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# === Jupyter notebook checkpoints ===
+.ipynb_checkpoints/
+
+# === Conda environments ===
+.env/
+.venv/
+env/
+venv/
+*.conda
+*.env
+
+# === PyCharm ===
+.idea/
+
+# === Logs & outputs ===
+*.log
+*.out
+*.err
+*.pkl
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# === Dataset files ===
+*.tsv
+*.xlsx
+*.xls
+
+# === Model dirs ===
+/checkpoints/
+/runs/
+/models/
+/output/
+/results/
+
+# === VS Code (if you switch) ===
+.vscode/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+desktop.ini
