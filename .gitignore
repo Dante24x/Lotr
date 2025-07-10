@@ -48,3 +48,12 @@ venv/
 .DS_Store
 Thumbs.db
 desktop.ini
+/MLModels/confusion_matrix_logreg.png
+/MLModels/confusion_matrix_random_forest.png
+/MLModels/confusion_matrix_svm.png
+/TFModels/confusion_matrix_distilbert.png
+/TFModels/confusion_matrix_roberta.png
+/DLModels/confusion_matrix_cnn.png
+/DLModels/confusion_matrix_gru.png
+/DLModels/confusion_matrix_lstm.png
+/Data/glove.6B.300d.txt
