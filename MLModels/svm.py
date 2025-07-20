@@ -54,11 +54,11 @@ best_model = grid_search.best_estimator_
 
 # Predict on test set
 y_test_pred = best_model.predict(X_test_tfidf)
-print("\n📋 Classification Report: SVM Model (Test Set)")
+print("\n Classification Report: SVM Model (Test Set)")
 print(classification_report(y_test, y_test_pred))
 
 # Confusion matrix
-labels = ["Positive", "Negative", "Neutral"]
+labels = ["Negative", "Neutral", "Positive"]
 conf_matrix = confusion_matrix(y_test, y_test_pred, labels=labels)
 plt.figure(figsize=(6, 4))
 sns.heatmap(conf_matrix, annot=True, fmt='d', cmap="Blues",
